@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		8005C56029CF89AF0074E36A /* Hw Lister */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Hw Lister"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8005C56329CF89AF0074E36A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8005C56A29CF8BD40074E36A /* BugLog.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = BugLog.txt; sourceTree = "<group>"; };
+		8005C56B29CF8C570074E36A /* Notes.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Notes.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				8005C56329CF89AF0074E36A /* main.cpp */,
+				8005C56A29CF8BD40074E36A /* BugLog.txt */,
+				8005C56B29CF8C570074E36A /* Notes.txt */,
 			);
 			path = "Hw Lister";
 			sourceTree = "<group>";

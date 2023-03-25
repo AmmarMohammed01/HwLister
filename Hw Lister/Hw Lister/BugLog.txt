@@ -1,0 +1,12 @@
+# Bug Log
+ Bug 1. 3/4/2023
+  - add Assignments used to have a the hwPtr initialized inside of itself (the function), this would not work as HWPtr would not change and still be nullptr. I had to create a seperate function getNumAssignments() to get the number of assignments the user wants to enter, then use new to declare the pointer. Then I am able to initialize the pointer inside the function
+ 
+ Bug 2. 3/4/2023
+ - Reading from data currently in file, the pointer was still set to null pointer when trying to use currentInfo() function
+ - FIX: created getNumLine function to initialize the hwReadPointer before calling currentInfo()
+ 
+ Bug 3. 3/4/2023
+ - Whenever you call add assignments when HW is already present in file, it prints out "" and 0 for the previous assignments the user did not immideately add
+ - POSSIBLE REASON: This is because I did not transfer the values from the hwReadPtr to the new hwWritePtr
+ - FIX: Implemented pointer array value transfer using a for loop in addAssignments()

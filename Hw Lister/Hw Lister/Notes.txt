@@ -1,0 +1,1 @@
+- 3/25/2023: Implemented deleteAssignment and searchElementByName functions
